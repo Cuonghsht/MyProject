@@ -1,0 +1,134 @@
+﻿/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header & Navbar */
+header {
+    background-color: #282c34;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+    .nav-links a {
+        color: #61dafb;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+        .nav-links a:hover {
+            color: #21a1f1;
+        }
+
+/* Hero Section */
+.hero {
+    background-color: #61dafb;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+
+    .hero .button {
+        background-color: #21a1f1;
+        color: #fff;
+        padding: 0.7rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 1rem;
+        display: inline-block;
+    }
+
+        .hero .button:hover {
+            background-color: #1b8ed0;
+        }
+
+/* About Section */
+.about {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+    .about h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+/* Services Section */
+.services {
+    padding: 2rem 1rem;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+    .services h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+/* Footer */
+footer {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
